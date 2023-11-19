@@ -3,17 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.6.33815.320
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.API_Clean_Architecture_Repository", "Dapper.API_Clean_Architecture_Repository\Dapper.API_Clean_Architecture_Repository.csproj", "{2D3749F8-B63D-4935-ADF1-ADCA2B6BE180}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Core", "Dapper.Core\Dapper.Core.csproj", "{FE79B978-2D23-4154-A0D8-CC09D0181E2B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Core", "Dapper.Core\Dapper.Core.csproj", "{FE79B978-2D23-4154-A0D8-CC09D0181E2B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Application", "Dapper.Application\Dapper.Application.csproj", "{C14016F7-617A-4A52-87B3-40040CDE8072}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Application", "Dapper.Application\Dapper.Application.csproj", "{C14016F7-617A-4A52-87B3-40040CDE8072}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Logging", "Dapper.Logging\Dapper.Logging.csproj", "{3C07F325-2EA2-416A-8F45-39352F2FFFAC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Logging", "Dapper.Logging\Dapper.Logging.csproj", "{3C07F325-2EA2-416A-8F45-39352F2FFFAC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Sql", "Dapper.Sql\Dapper.Sql.csproj", "{5120A007-BD83-47DD-B9C6-1B4B605F5B3F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Sql", "Dapper.Sql\Dapper.Sql.csproj", "{5120A007-BD83-47DD-B9C6-1B4B605F5B3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Dapper.Infrastructure", "Dapper.Infrastructure\Dapper.Infrastructure.csproj", "{507EBA50-E27E-4F5F-80BA-4563C2F5E67E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.Infrastructure", "Dapper.Infrastructure\Dapper.Infrastructure.csproj", "{507EBA50-E27E-4F5F-80BA-4563C2F5E67E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dapper.API", "Dapper.API\Dapper.API.csproj", "{CB098CBE-F8BA-4C88-AF7A-C88D6859ED4A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{2D3749F8-B63D-4935-ADF1-ADCA2B6BE180}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{2D3749F8-B63D-4935-ADF1-ADCA2B6BE180}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{2D3749F8-B63D-4935-ADF1-ADCA2B6BE180}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{2D3749F8-B63D-4935-ADF1-ADCA2B6BE180}.Release|Any CPU.Build.0 = Release|Any CPU
 		{FE79B978-2D23-4154-A0D8-CC09D0181E2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FE79B978-2D23-4154-A0D8-CC09D0181E2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FE79B978-2D23-4154-A0D8-CC09D0181E2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{507EBA50-E27E-4F5F-80BA-4563C2F5E67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{507EBA50-E27E-4F5F-80BA-4563C2F5E67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{507EBA50-E27E-4F5F-80BA-4563C2F5E67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB098CBE-F8BA-4C88-AF7A-C88D6859ED4A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB098CBE-F8BA-4C88-AF7A-C88D6859ED4A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB098CBE-F8BA-4C88-AF7A-C88D6859ED4A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB098CBE-F8BA-4C88-AF7A-C88D6859ED4A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

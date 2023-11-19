@@ -1,4 +1,4 @@
-namespace Dapper.API_Clean_Architecture_Repository
+namespace Dapper.API
 {
     public class WeatherForecast
     {
