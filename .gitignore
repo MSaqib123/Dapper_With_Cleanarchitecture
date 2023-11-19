@@ -361,3 +361,6 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+/Dapper.API_Clean_Architecture_Repository/Dapper.API_Clean_Architecture_Repository.csproj
+/Dapper.API_Clean_Architecture_Repository/Dapper.API_Clean_Architecture_Repository.csproj
+/Dapper.API_Clean_Architecture_Repository/Dapper.API_Clean_Architecture_Repository.csproj
