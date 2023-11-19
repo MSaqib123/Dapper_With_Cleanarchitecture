@@ -18,7 +18,7 @@ namespace Dapper.Infrastructure.Service
 
             //====================== 2. UnitOfWork ======================
             /* 
-             to use  UnitOf Work  need all Above  Servicies
+             to use  UnitOf Work  need all Above  child Servicies to Start 1st
             */
             services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
