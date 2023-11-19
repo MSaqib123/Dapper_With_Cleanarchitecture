@@ -13,7 +13,13 @@ namespace Dapper.Infrastructure.Service
     {
         public static void RegisterServices(this IServiceCollection services)
         {
+            //====================== 1. ChildServices ======================
             services.AddTransient<IContactRepository, ContactRepository>();
+
+            //====================== 2. UnitOfWork ======================
+            /* 
+             to use  UnitOf Work  need all Above  Servicies
+            */
             services.AddTransient<IUnitOfWork, UnitOfWork>();
         }
     }
