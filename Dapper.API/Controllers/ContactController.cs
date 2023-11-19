@@ -10,7 +10,7 @@ namespace Dapper.API_Clean_Architecture_Repository.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class ContactController : ControllerBase
+    public class ContactController : BaseApiController
     {
         #region ===[ Private Members ]=============================================================
 

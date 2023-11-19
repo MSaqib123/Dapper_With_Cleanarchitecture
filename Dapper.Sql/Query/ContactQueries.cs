@@ -8,22 +8,22 @@ namespace Dapper.Sql.Query
 {
     public class ContactQueries
     {
-        public static string AllContact => "SELECT * FROM [Contact] (NOLOCK)";
+        public static string AllContact => "SELECT * FROM [tblContact] (NOLOCK)";
 
-        public static string ContactById => "SELECT * FROM [Contact] (NOLOCK) WHERE [ContactId] = @ContactId";
+        public static string ContactById => "SELECT * FROM [tblContact] (NOLOCK) WHERE [ContactId] = @ContactId";
 
         public static string AddContact =>
-            @"INSERT INTO [Contact] ([FirstName], [LastName], [Email], [PhoneNumber]) 
+            @"INSERT INTO [tblContact] ([FirstName], [LastName], [Email], [PhoneNumber]) 
             VALUES (@FirstName, @LastName, @Email, @PhoneNumber)";
 
         public static string UpdateContact =>
-            @"UPDATE [Contact] 
+            @"UPDATE [tblContact] 
         SET [FirstName] = @FirstName, 
             [LastName] = @LastName, 
             [Email] = @Email, 
             [PhoneNumber] = @PhoneNumber
         WHERE [ContactId] = @ContactId";
 
-        public static string DeleteContact => "DELETE FROM [Contact] WHERE [ContactId] = @ContactId";
+        public static string DeleteContact => "DELETE FROM [tblContact] WHERE [ContactId] = @ContactId";
     }
 }

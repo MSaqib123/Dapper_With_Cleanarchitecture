@@ -1,5 +1,8 @@
-﻿namespace Dapper.Core
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace Dapper.Core
 {
+    [Table("tblContact")]
     public class Contact
     {
         public int? ContactId { get; set; }
