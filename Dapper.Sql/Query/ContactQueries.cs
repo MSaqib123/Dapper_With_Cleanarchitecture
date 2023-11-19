@@ -8,6 +8,8 @@ namespace Dapper.Sql.Query
 {
     public class ContactQueries
     {
+        //__________ Query Base Work ___________
+        #region Query_Base
         public static string AllContact => "SELECT * FROM [tblContact] (NOLOCK)";
 
         public static string ContactById => "SELECT * FROM [tblContact] (NOLOCK) WHERE [ContactId] = @ContactId";
@@ -25,5 +27,12 @@ namespace Dapper.Sql.Query
         WHERE [ContactId] = @ContactId";
 
         public static string DeleteContact => "DELETE FROM [tblContact] WHERE [ContactId] = @ContactId";
+        #endregion
+
+        //__________ Proccedure Base Work ___________
+        #region Proccedure_base
+
+        #endregion
+
     }
 }
